@@ -1,0 +1,66 @@
+body{
+    background: grey;
+    margin: 0;
+}
+div{
+    box-sizing: border-box;
+}
+header{
+    background: white;
+    margin: auto;
+    width: min-content;
+    padding: 10px;
+    font-family: sans-serif;
+    display: flex;
+}
+header h1, p{
+    margin: auto;
+    width: auto;
+    padding: auto;
+}
+.icono{
+    width: auto;
+    height: auto;
+    margin: auto;
+    font-size: 50px;
+    float: left;
+}
+.dot{
+    float: right;
+    font-size: 30px;
+}
+.heart{
+    font-size: 30px;
+}
+.comment{
+    font-size: 30px;
+}
+.plane{
+    font-size: 30px;    
+}
+.bookmark{
+    font-size: 30px;
+    float: right;
+}
+div.post{
+    background: white;
+    margin: auto;
+    width: 600px;
+    height: 700px;
+}
+div.post img{
+    width: 600px;
+    height: 500px;
+    margin: auto;
+}
+div.post p{
+    padding: 10px;
+    margin: 0;
+    text-align: left;
+    font-family: sans-serif;
+}
+div.container, .post-header{
+    width: 600px;
+    margin: auto;
+    text-align: left;
+}
